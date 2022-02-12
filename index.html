@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #Back
+        {
+            background-color: lightgreen;
+            position:relative;
+            width:50%;
+            height:10%;
+            left:20%;
+        }
+        #Back h1{
+            text-align: center;
+        }
+        #Back table
+        {
+            position: relative;
+            left:15%;
+        }
+        #Back textarea
+        {
+            width:98%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello !!</h1>
+    <div id="Back">
+    <h1>School Registration Page</h1>
+    <table> 
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text"></td>
+            <td>Last Name: </td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth: </td>
+            <td colspan="2"><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td><input type="radio" name="g" >Female </td>
+            <td><input type="radio" name="g">Male</td>
+            <td><input type="radio" name="g">Others </td>
+        </tr>
+        <tr>
+            <td>
+                Address:
+            </td>
+            <td colspan="3"><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td ></td>
+        </tr>
+    </table>
+    </div>
 </body>
 </html>
